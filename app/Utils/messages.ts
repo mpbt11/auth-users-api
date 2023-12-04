@@ -1,0 +1,26 @@
+export const messages = {
+  success: {
+    userCreated: "Usuário criado com sucesso!",
+    userUpdated: "Usuário atualizado com sucesso!",
+    userDeleted: "Usuário excluído com sucesso!",
+    userRetrieved: "Usuário obtido com sucesso!",
+    userListed: "Lista de usuários obtida com sucesso!",
+    userLoggedIn: "Login realizado com sucesso!",
+    postCreated: "Post criado com sucesso!",
+    postUpdated: "Post atualizado com sucesso!",
+    postDeleted: "Post excluído com sucesso!",
+    dashboardListed: "Dashboard listado com sucesso!",
+  },
+  error: {
+    userCreationFailed: "Erro ao criar o usuário. Por favor, tente novamente.",
+    userUpdateFailed: "Erro ao atualizar o usuário. Por favor, tente novamente.",
+    userDeleteFailed: "Erro ao excluir o usuário. Por favor, tente novamente.",
+    userRetrieveFailed: "Erro ao obter o usuário. Por favor, tente novamente.",
+    userListFailed: "Erro ao obter a lista de usuários. Por favor, tente novamente.",
+    userLoginFailed: "Login falhou. Verifique suas credenciais e tente novamente.",
+    postCreationFailed: "Erro ao criar o post. Por favor, tente novamente.",
+    postUpdateFailed: "Erro ao atualizar o post. Por favor, tente novamente.",
+    postDeleteFailed: "Erro ao excluir o post. Por favor, tente novamente.",
+    dashboardListFailed: "Erro ao obter dados do dashboard. Por favor, tente novamente.",
+  },
+};
