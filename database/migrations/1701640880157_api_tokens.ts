@@ -10,7 +10,6 @@ export default class extends BaseSchema {
       table.string('name').notNullable()
       table.string('type').notNullable()
       table.string('token', 64).notNullable().unique()
-
       /**
        * Uses timestampz for PostgreSQL and DATETIME2 for MSSQL
        */
